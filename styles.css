@@ -9,3 +9,8 @@ p {
 menu {
   front-family: Roboto;
 }
+
+body {
+ margin: 0;
+ border: dashed 1px red;
+}
