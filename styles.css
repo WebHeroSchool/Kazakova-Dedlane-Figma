@@ -16,5 +16,7 @@ body {
 }
 
 .header {
- border: dashed 1px red;
+  margin: auto;
+  width: 80%;
+  border: dashed 1px red;
 }
