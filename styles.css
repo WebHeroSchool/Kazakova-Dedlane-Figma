@@ -2,14 +2,6 @@
   border: dashed 1px red;
 }
 
-.menu__item {
-  border: dashed 1px red;
-}
-
-.header, .main-section {
-  border: dashed 1px red;
-}
-
 body {
  margin: 0;
  border: dashed 1px red;
