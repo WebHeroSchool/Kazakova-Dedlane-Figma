@@ -14,3 +14,7 @@ body {
  margin: 0;
  border: dashed 1px red;
 }
+
+.header {
+ border: dashed 1px red;
+}
