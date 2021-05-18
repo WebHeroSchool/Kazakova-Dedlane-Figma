@@ -1,19 +1,6 @@
-.menu {
-  font-family: 'Roboto';
-  }
-
-.main-content__subtitle {
-  font-family: 'Roboto';
-  }
-
 .main-content__button {
   font-family: 'Roboto';
   }
-
-.main-content__title {
-  font-family: 'PT-Serif';
-  }
-
 
 body {
  margin: 0;
@@ -30,16 +17,44 @@ body {
 }
 
 .logo {
+  position: relative;
   padding: 40px 0;
-  font-family: pt_serif, arial, helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 31px;
+  padding-left: 44px;
+  font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+  border: dashed 1px red;
 }
+
+.logo__circle{
+  position: absolute;
+  left: 0;
+  top: 50;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+  border: dashed 1px red;
+}
+
+.logo__circle_color_dark-blue {
+  background: #0056EC;
+  border-radius: 50%;
+  opacity: .7;
+}
+
+
+.logo__circle_color_blue {
+  left: 8px;
+  top: 56%;
+  background: #C8DBFB;
+  border-radius: 50%;
+  opacity: .7;
+}
+
+
 
 .menu{
   display: flex;
   align-items: center;
+  font-family: 'Roboto'
 }
 
 .menu__item{
@@ -57,8 +72,10 @@ body {
 
 .main-content__title {
   margin-bottom: 40px;
+  font-family: 'PT-Serif'
 }
 
 .main-content__subtitle {
-  margin-bottom: 41px
+  margin-bottom: 41px;
+  font-family: 'Roboto'
 }
