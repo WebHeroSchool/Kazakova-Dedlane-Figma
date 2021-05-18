@@ -11,12 +11,9 @@
   }
 
 .main-content__title {
-    font-family: pt-serif;
+  font-family: PT-Serif;
   }
 
-* {
-  border: dashed 1px red;
-}
 
 body {
  margin: 0;
