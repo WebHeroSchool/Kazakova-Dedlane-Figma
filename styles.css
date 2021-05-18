@@ -1,3 +1,19 @@
+.menu {
+  font-family: 'Roboto';
+  }
+
+.main-content__subtitle {
+  font-family: 'Roboto';
+  }
+
+.main-content__button {
+  font-family: 'Roboto';
+  }
+
+.main-content__title {
+    font-family: pt-serif;
+  }
+
 * {
   border: dashed 1px red;
 }
@@ -16,13 +32,8 @@ body {
   justify-content: space-between;
 }
 
-.logo, .menu {
-  display: inline-block;
-}
-
 .logo {
   padding: 40px 0;
-  margin-right: 63%;
 }
 
 .menu{
