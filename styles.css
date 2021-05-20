@@ -20,14 +20,14 @@ body {
   position: relative;
   padding: 40px 0;
   padding-left: 44px;
-  font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+  font: bold 24px/31px pt_serifbold, arial, helvetica, sans-serif;
   border: dashed 1px red;
 }
 
 .logo__circle{
   position: absolute;
   left: 0;
-  top: 50;
+  top: 50px;
   transform: translateY(-50%);
   width: 28px;
   height: 28px;
@@ -48,8 +48,6 @@ body {
   border-radius: 50%;
   opacity: .7;
 }
-
-
 
 .menu{
   display: flex;
@@ -72,7 +70,7 @@ body {
 
 .main-content__title {
   margin-bottom: 40px;
-  font-family: 'PT-Serif'
+  font-family: 'pt_serif'
 }
 
 .main-content__subtitle {
