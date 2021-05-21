@@ -28,12 +28,11 @@ body {
   transform: translateY(-50%);
   width: 28px;
   height: 28px;
-  border: dashed 1px red;
 }
 
 .logo__circle_color_dark-blue {
   background: #0056EC;
-  border-radius: 50%;
+  border-radius: 54%;
   opacity: .7;
 }
 
@@ -87,7 +86,7 @@ body {
 }
 
 .main {
-  padding: 0 63% 100px 0;
+  padding: 0 63% 290px 0;
   background: top right no-repeat url(img/mainimg.svg);
 }
 
