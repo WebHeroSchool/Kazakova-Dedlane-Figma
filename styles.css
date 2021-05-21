@@ -10,6 +10,7 @@ body {
 .header{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .logo {
@@ -86,9 +87,8 @@ body {
 }
 
 .main {
-  padding-top: 100px;
-  padding-right: 63%;
-  background: url(img/mainimg.svg);
+  padding: 0 63% 100px 0;
+  background: top right no-repeat url(img/mainimg.svg);
 }
 
 .main__title {
@@ -104,6 +104,10 @@ body {
 .main__button {
   font: 14px/16px Roboto, arial, helvetica, sans-serif;
   }
+
+.main__title-text_highlight{
+  background: #ECF3FF;
+}
 
 .menu__item:hover {
   opacity: 0.5;
