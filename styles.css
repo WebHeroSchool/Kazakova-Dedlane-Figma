@@ -18,13 +18,12 @@ body {
   padding: 40px 0;
   padding-left: 44px;
   font: bold 24px/31px pt_serifbold, arial, helvetica, sans-serif;
-  border: dashed 1px red;
 }
 
 .logo__circle{
   position: absolute;
   left: 0;
-  top: 50px;
+  top: 54px;
   transform: translateY(-50%);
   width: 28px;
   height: 28px;
